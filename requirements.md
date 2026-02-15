@@ -1,7 +1,7 @@
-# Suraksha-Flow
+#Suraksha-Flow
 AI-Powered Fraud Detection & GST Compliance Auditor for Small Businesses
 
-## 1. Problem Statement
+1. Problem Statement
 
 Small retail businesses in India face:
 
@@ -14,7 +14,8 @@ There is no unified system that:
 - Detects mule account patterns.
 - Automatically generates simplified GST compliance summaries.
 
-## 2. Objective
+==========================================================================================================================================
+2. Objective
 
 Build an AI Auditor that:
 
@@ -23,7 +24,8 @@ Build an AI Auditor that:
 - Generates GST-compliant summaries and reports automatically.
 - Provides simple insights for non-technical shop owners.
 
-## 3. Target Users
+==========================================================================================================================================
+3. Target Users
 
 - Kirana store owners
 - Small wholesalers
@@ -31,9 +33,10 @@ Build an AI Auditor that:
 - Micro e-commerce sellers
 - Service-based SMEs
 
-## 4. Functional Requirements
+==========================================================================================================================================
+4. Functional Requirements
 
-### 4.1 Transaction Monitoring
+ 4.1 Transaction Monitoring
 - Ingest transaction logs (CSV/API/UPI logs).
 - Extract behavioral features:
   - Transaction frequency
@@ -42,19 +45,19 @@ Build an AI Auditor that:
   - Time-based anomalies
 - Generate fraud probability score.
 
-### 4.2 Mule Account Detection
+4.2 Mule Account Detection
 System should detect:
 - Rapid in-out fund cycling
 - Multiple inbound micro-transactions
 - Common beneficiary endpoints
 - Dormant account sudden activation
 
-### 4.3 Real-Time Alerts
+4.3 Real-Time Alerts
 - High-risk alerts via dashboard.
 - Optional WhatsApp/SMS notification.
 - Risk severity classification (Low/Medium/High).
 
-### 4.4 GST Compliance Engine
+4.4 GST Compliance Engine
 - Auto-categorize transactions into GST slabs.
 - Calculate:
   - Total revenue
@@ -62,12 +65,13 @@ System should detect:
   - Estimated Input Tax Credit
 - Generate monthly compliance summary.
 
-### 4.5 AI Report Generation
+4.5 AI Report Generation
 - Plain-language financial summary.
 - Fraud explanation report.
 - Downloadable PDF compliance document.
 
-## 5. Non-Functional Requirements
+==========================================================================================================================================
+5. Non-Functional Requirements
 
 - Scalable to 1M+ SMEs.
 - Secure (AWS IAM, encryption at rest).
@@ -75,7 +79,8 @@ System should detect:
 - Low latency (< 2 seconds inference).
 - Mobile-friendly UI.
 
-## 6. Success Metrics
+==========================================================================================================================================
+6. Success Metrics
 
 - Fraud detection precision > 85%
 - False positive rate < 10%
