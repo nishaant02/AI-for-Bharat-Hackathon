@@ -3,19 +3,19 @@
 ## 1. High-Level Architecture
 
 [POS / UPI Logs]
-        ↓
+        ->
 [Data Ingestion Layer]
-        ↓
+        ->
 [Feature Engineering Pipeline]
-        ↓
+        ->
 [Fraud Detection Model - Amazon SageMaker]
-        ↓
+        ->
 [Risk Scoring Engine]
-        ↓
+        ->
 [GST Classification Engine]
-        ↓
+        ->
 [AI Compliance Generator - Amazon Q]
-        ↓
+        ->
 [Dashboard + Alerts]
 
 ---
